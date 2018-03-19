@@ -11,7 +11,7 @@ const MathApi = {
     const button = document.querySelector('.js-button-remove');
 
     button.addEventListener('click', () => {
-      this.remove()
+      this.remove();
     });
   },
 };
