@@ -1,19 +1,19 @@
-import Cookie from './cookie';
+import Cookie from './cookie'
 
 const MathApi = {
   add: () => {
-    const button = document.querySelector('.js-button-add');
+    const button = document.querySelector('.js-button-add')
 
-    button.addEventListener('click', Cookie.add('Math', this.getAttribute('name')));
+    button.addEventListener('click', Cookie.add('Math', this.getAttribute('name')))
   },
 
   remove: () => {
-    const button = document.querySelector('.js-button-remove');
+    const button = document.querySelector('.js-button-remove')
 
     button.addEventListener('click', () => {
-      this.remove();
-    });
+      this.remove()
+    })
   },
-};
+}
 
-export default MathApi;
+export default MathApi

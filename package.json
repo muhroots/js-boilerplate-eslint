@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
     "precommit": "npm run lint",
     "prepush": "npm run lint",
     "lint": "eslint ./src",
